@@ -1,0 +1,118 @@
+body{
+    height:100vh;
+    font-family: 'Pangolin', cursive;
+}
+.container{
+    width:100%;
+    text-align: center;
+    
+}
+@keyframes colors{
+    0%{
+        color:green;
+    }
+    50%{
+        color:yellow;
+    }
+    100%{
+        color:black;
+    }
+}
+@keyframes bg-colors{
+    0%{
+        background-color:green;
+    }
+    50%{
+        background-color:yellow;
+    }
+    100%{
+        background-color:red;
+    }
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    animation-name: colors;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+}
+#top-music:hover{
+    animation-name: colors;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+}
+#header-image{
+    width:20%;
+    height:30%;
+}
+ul li{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin:0 3% 0 3%;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    font-weight: bold;
+    animation-name: colors;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+}
+table{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border:1px solid black;
+}
+table td p{
+    padding:0 2% 0 2%;
+}
+table td:hover{
+    animation-name: bg-colors;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+#about{
+    float: left;
+    width:45%;
+    border-radius: 10%;
+    padding:0 2% 0 2%;
+    font-size:25px;
+}
+#about p{
+    text-align: left;
+}
+#notes{
+    width:20%;
+    height:30%;
+    position: absolute;
+    margin-left:-25%;
+    margin-top:-20%;
+}
+#second-notes{
+    width:20%;
+    height:30%;
+    position: absolute;
+    margin-left:-10%;
+    margin-top:-20%;
+}
+#mission{
+    float: left;
+    width:45%;
+    border-radius: 10%;
+    padding:0 2% 0 2%;
+    font-size:25px;            
+}
+#mission p{
+    text-align: left;
+}
+.hide{
+    display: none;
+}
+form{
+    position: absolute;
+    margin-left:25%;
+}
