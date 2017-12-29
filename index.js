@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     //         mission.style.backgroundColor = 'none'
     //     })
     // })
-    var artistUrl = "http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=c18d4a266b137ba738f2bd91651d4e4b&format=json"
+    var artistUrl = "http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=YOUR LAST.FM API KEY=json"
     fetch(artistUrl, {
         method:'GET',
         mode:'cors'
