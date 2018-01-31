@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     //         mission.style.backgroundColor = 'none'
     //     })
     // })
-    var artistUrl = "http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=c18d4a266b137ba738f2bd91651d4e4b&format=json"
+    var artistUrl = "http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=YOUR_API_KEY&format=json"
     fetch(artistUrl, {
         method:'GET',
         mode:'cors'
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         a5.innerText = myBlob.artists.artist[4].name;    
     })
 
-    var songsUrl = "http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=c18d4a266b137ba738f2bd91651d4e4b&format=json"
+    var songsUrl = "http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=YOUR_API_KEY&format=json"
     fetch(songsUrl, {
         method:'GET',
         mode:'cors'
